@@ -61,10 +61,7 @@ public class Cash2 {
                                         chng = chs - tot;
                                         System.out.println("Change is :"+chng);
                     }
-                    else 
-            {
-                System.out.println("Invalid In");
-            }
+                    
                     
                             if(ch3==1)
                             {
@@ -134,6 +131,7 @@ public class Cash2 {
                                     
                             }
                             
+                            
                     
                     }
                     
@@ -171,9 +169,7 @@ public class Cash2 {
                                         System.out.println("Change is :"+chng);
                                         
                     }
-                    {
-                System.out.println("Invalid In");
-            }
+                    
                             if(ch3==1)
                             {
                             System.out.println("Drinks");
@@ -245,6 +241,7 @@ public class Cash2 {
             }
             
             
+            
             //drinks
             
             else if(ch1==2)
@@ -287,10 +284,7 @@ public class Cash2 {
                                         chng = chs - tot;
                                         System.out.println("Change is :"+chng);
                     }
-                    else 
-            {
-                System.out.println("Invalid In");
-            }
+                    
                     
                             if(ch3==1)
                             {
@@ -390,10 +384,7 @@ public class Cash2 {
                                         chng = chs - tot;
                                         System.out.println("Change is :"+chng);
                     }
-                    else 
-            {
-                System.out.println("Invalid In");
-            }
+                    
                     
                             if(ch3==1)
                             {
