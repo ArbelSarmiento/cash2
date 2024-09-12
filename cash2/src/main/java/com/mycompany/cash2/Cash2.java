@@ -131,10 +131,13 @@ public class Cash2 {
                                     
                                     }
                                     
+                                    
                             }
                             
                     
                     }
+                    
+                    
                     
                     
                     //nova + coke , nova + water snacks 2nd main
@@ -168,6 +171,9 @@ public class Cash2 {
                                         System.out.println("Change is :"+chng);
                                         
                     }
+                    {
+                System.out.println("Invalid In");
+            }
                             if(ch3==1)
                             {
                             System.out.println("Drinks");
@@ -205,7 +211,7 @@ public class Cash2 {
                                     
                                     }
                                     
-                                    //piatos + water
+                                    //nova + water
                                     
                                     if(ch4==2)
                                     {
@@ -235,6 +241,7 @@ public class Cash2 {
                     
                     }
                     
+                    
             }
             
             
@@ -254,21 +261,45 @@ public class Cash2 {
                     if(ch2==1)
                     {
                     System.out.println("you choose coke 21 pesos");
-                    int pia , nova;
-                    pia = 20;
-                    nova = 22;
+                    int coke , wat;
+                    coke = 21;
+                    wat = 27;
                     
                     System.out.println("Gusto mo Snacks? [1] yes [2] no:");
                     int ch3 = input.nextInt();
+                    
+                    if(ch3==2)
+                    {
+                        int tot;
+                                    tot = coke;
+                                    System.out.println("Total is :"+tot);
+                                    System.out.println("Enter your cash:");
+                                    int chs = input.nextInt();
+                                    
+                                        while(chs<tot)
+                                        {
+                                        System.out.println("Invalid Amount");
+                                        System.out.println("Enter your cash:");
+                                        chs = input.nextInt();
+                                        }
+                                        
+                                        int chng;
+                                        chng = chs - tot;
+                                        System.out.println("Change is :"+chng);
+                    }
+                    else 
+            {
+                System.out.println("Invalid In");
+            }
                     
                             if(ch3==1)
                             {
                             System.out.println("Snacks");
                             System.out.println("[1] - Piatos");
                             System.out.println("[2] - Nova");
-                            int coke , wat;
-                            coke = 21;
-                            wat = 27;
+                            int pia , nova;
+                            pia = 20;
+                            nova = 22;
                             
                                 System.out.println("Enter your choice:");
                                 int ch4 = input.nextInt();
@@ -328,25 +359,50 @@ public class Cash2 {
                     
                     }
                     
+                    
                     //nova + coke , nova + water snacks 2nd main
                     if(ch2==2)
                     {
                     System.out.println("you choose water 27 pesos");
-                    int pia , nova;
-                    pia = 20;
-                    nova = 22;
+                    int coke , wat;
+                    coke = 21;
+                    wat = 27;
                     
                     System.out.println("Gusto mo Snacks? [1] yes [2] no:");
                     int ch3 = input.nextInt();
+                    
+                    if(ch3==2)
+                    {
+                        int tot;
+                                    tot = wat;
+                                    System.out.println("Total is :"+tot);
+                                    System.out.println("Enter your cash:");
+                                    int chs = input.nextInt();
+                                    
+                                        while(chs<tot)
+                                        {
+                                        System.out.println("Invalid Amount");
+                                        System.out.println("Enter your cash:");
+                                        chs = input.nextInt();
+                                        }
+                                        
+                                        int chng;
+                                        chng = chs - tot;
+                                        System.out.println("Change is :"+chng);
+                    }
+                    else 
+            {
+                System.out.println("Invalid In");
+            }
                     
                             if(ch3==1)
                             {
                             System.out.println("Snacks");
                             System.out.println("[1] - Piatos");
                             System.out.println("[2] - Nova");
-                            int coke , wat;
-                            coke = 21;
-                            wat = 27;
+                            int pia , nova;
+                            pia = 20;
+                            nova = 22;
                             
                                 System.out.println("Enter your choice:");
                                 int ch4 = input.nextInt();
